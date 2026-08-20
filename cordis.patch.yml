@@ -1,0 +1,12 @@
+# dsh-plugin-manager bundle patch: mounts the plugin-manager host row.
+#
+# The same package carries the browser half (`dsh.client`), which registers a
+# managed tab in the Web Plugins settings section. The row's `name` is the
+# package itself: on the host side the default export is a Typert Remote
+# service (`pluginManager.list / setRowEnabled / setBundleEnabled`), and the
+# client-modules node half picks up the `./client` bundle from this package's
+# manifest to serve the browser half.
+
+- insert:
+    - id: plugin-manager
+      name: 'dsh-plugin-manager'
