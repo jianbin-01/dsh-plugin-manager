@@ -25,6 +25,12 @@ A third tab in 设置 → 插件 (after 插件配置 / 插件列表):
 - **保护名单** — core rows (loader / typert / transport / storage / shell UI
   rows, including this plugin itself) refuse to be disabled.
 
+## 截图 / Screenshot
+
+设置 → 插件 页新增的「启停管理」标签(bundle 分组、内置/用户安装标识、行级与整包开关):
+
+![Screenshot](assets/screenshot.png)
+
 ## Install
 
 ### From git (recommended for sharing)
